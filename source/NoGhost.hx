@@ -3,7 +3,6 @@
 #include "windows.h"
 #include "winuser.h"
 ')
-#end
 @:unreflective
 @:nativeGen
 class NoGhost {
@@ -12,3 +11,4 @@ class NoGhost {
 	')
 	public static function disable():Void {}
 }
+#end
